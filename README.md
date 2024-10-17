@@ -8,9 +8,13 @@ This is a **Client Detection Application** that retrieves and displays essential
 ## Features
 
 - **System Information**: Detects and displays the operating system name, browser name, and system language.
+
 - **Window Information**: Displays and dynamically updates the window width, height, and orientation.
+
 - **Battery Information**: Retrieves battery level and charging status, with support for browsers that do not expose this information.
+
 - **Network Status**: Displays whether the user is online or offline, with dynamic updates.
+
 - **Responsive Design**: Adjusts the layout and content based on the window size.
 
 ![Network status](./assets/img/Web%20page.png)
