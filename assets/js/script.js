@@ -60,8 +60,11 @@ function updateWindowSize() {
   pageOrientation.innerText = window.innerWidth > window.innerHeight ? 'landscape' : 'portrait';
 }
 
-let battery;
-async function checkBatteryStatus() {
+// I use asyn and await keywords for more readability here 
+//async declares  asynchronous operation which can handal using await 
+//means wait for the result and then execute. This is helpful in error handling as well.
+let battery; 
+async function checkBatteryStatus() { 
   if (navigator.getBattery) {
     const battery = await navigator.getBattery();
     batteryCheck.innerText = Math.round(battery.level * 100) + '%';
