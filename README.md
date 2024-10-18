@@ -30,3 +30,4 @@ This is a **Client Detection Application** that retrieves and displays essential
 - Managing browser history (navigate between pages, reload or go back/forward).
 - Controlling browser behavior (open/close pop-ups, or setting timeouts).
 - Detecting and responding to changes in the network status, battery level, and other system information.
+

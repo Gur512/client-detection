@@ -50,6 +50,7 @@ function getBrowser() {
   }
 }
 
+
 function getLanguage() {
   return navigator.language;
 }
@@ -62,7 +63,7 @@ function updateWindowSize() {
 
 // I use asyn and await keywords for more readability here 
 //async declares  asynchronous operation which can handal using await 
-//means wait for the result and then execute. This is helpful in error handling as well.
+//means wait for the result and then execute. This is helpful in error handling as well
 let battery; 
 async function checkBatteryStatus() { 
   if (navigator.getBattery) {
