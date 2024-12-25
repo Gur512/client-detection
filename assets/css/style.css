@@ -59,8 +59,8 @@ main {
 
 .info p {
     font-size: 16px;
-    padding: 5px;
-    margin-left: 10px;
+    padding: 5px 0;
+    margin-left: 15px;
     color: var(--app-white-background-color);
 }
 

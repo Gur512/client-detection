@@ -43,8 +43,10 @@ function getBrowser() {
       return 'Chrome';
     case userAgent.indexOf('Firefox') !== -1:
       return 'Firefox';
-    case userAgent.indexOf('Edge') !== -1:
+    case userAgent.indexOf('Edg') !== -1:
       return 'Edge';
+    case userAgent.indexOf('OPR') !== -1:
+      return 'Opera';
     default:
       return 'Unknown Browser';   
   }
